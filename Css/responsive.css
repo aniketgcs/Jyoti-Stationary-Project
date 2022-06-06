@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width:985px) {
+
+    /*when screen width gets 0px to 985px box display will visible*/
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+
+    #searchbox {
+        display: block;
+        text-align: center;
+    }
+
+    footer h5,
+    p,
+    a {
+        text-align: center;
+    }
+
+    span {
+        text-align: center;
+    }
+
+    .mdtextcenter {
+
+        text-align: center;
+
+    }
+
+    .mdcontentcenter {
+        margin: auto 2.5rem;
+    }
+
+    .widget-title span {
+        display: none;
+    }
+
+    .mdh {
+        /*for mobile device slider height*/
+        height: 30vh;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.1rem;
+        color: white;
+    }
+
+    .carousel-caption p {
+        font-size: 1.1rem;
+        color: black;
+    }
+
+    .mdfollowupcontainer {
+        /*small device social media icons center*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #writesomethingfooterlabel,
+    #askqueryfooterlabel {
+        display: block;
+    }
+    /* #desktopcontainer{
+        display: flex;
+        flex-direction: column;
+
+        
+    } */
+
+
+
+}
+
+@media (min-width:500px) and (max-width:800px) {
+    /*when screen width gets 500px to 800px box display will visible*/
+
+}
+
+@media (min-width:800px)and (max-width:1000px) {
+    /*when screen width gets 800px to 1000px box display will visible*/
+
+}
+
+@media (min-width:1000px) {
+    /*when screen width gets 800px to maximum px box display will visible*/
+
+}
